@@ -1,4 +1,5 @@
 # ubuntu environment setup by a button
+The enviroment is for security researcher.
 ## software list
 - 嘸蝦米
 - git-all
