@@ -9,28 +9,39 @@ echo "Install 嘸蝦米..."
 sudo apt-get install fcitx fcitx-m17n -y
 sudo apt-get install fcitx-table-boshiamy -y
 echo "Install finished!"
+echo ""
 
 echo "Install git..."
 sudo apt install -y git-all
 echo "Install finished!"
+echo ""
 
 echo "Install net-tools..."
 sudo apt-get -y install net-tools
 echo "Install finished!"
+echo ""
 
 echo "Install curl..."
 sudo apt install -y curl
 echo "Install finished!"
+echo ""
+
+echo "Install Htop..."
+sudo apt-get -y install htop
+echo "Install finished!"
+echo ""
 
 echo "Install python3、python3-dev&pip..."
 sudo apt-get -y install python3
 sudo apt-get -y install python3-dev
 sudo apt-get -y install pythone-pip
 echo "Install finished!"
+echo ""
 
 echo "Install python..."
 sudo apt-get -y install python
 echo "Install finished!"
+echo ""
 
 echo "Install Powerline..."
 sudo apt-get -y install powerline
@@ -39,14 +50,17 @@ echo "Install finished!"
 echo "Install Vim..."
 sudo apt-get -y install vim
 echo "Install finished!"
+echo ""
 
 echo "Install tmux..."
 sudo apt-get -y install tmux
 echo "Install finished!"
+echo ""
 
 echo "Install virtualenv..."
 sudo apt-get -y install python3-virtualenv
 echo "Install finished!"
+echo ""
 
 echo "Install Reverse software"
 echo "Install Radare2..."
@@ -54,6 +68,7 @@ git clone https://github.com/radareorg/radare2
 cd radare2/sys/
 ./install.sh
 ehco "Install finished!"
+echo ""
 
 echo "Install pwn software..."
 sudo apt-get -y install binutils nasm
@@ -77,6 +92,7 @@ cd ROPgadget
 python setup.py install
 sudo pip3 install one_gadget
 echo "Install finished!"
+echo ""
 
 echo "Install Docker..."
 sudo apt install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
