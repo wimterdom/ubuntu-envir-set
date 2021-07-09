@@ -59,7 +59,6 @@ echo "Install pwn software..."
 sudo apt-get -y install binutils nasm
 sudo apt-get -y install gcc-multilib g++-multilib
 sudo apt-get -y install libc6-dev-i386
-sudo apt-get -y install git
 sudo apt-get -y install libc6-dbg libc6-dbg:i386
 sudo apt-get -y install nmap
 sudo apt-get -y install python-pip libssl-dev
