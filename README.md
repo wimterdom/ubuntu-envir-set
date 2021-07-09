@@ -1,5 +1,5 @@
 # ubuntu environment setup by a code
-The enviroment is for security researcher.
+The enviroment is for binary exploitation researcher.
 ## software list
 - 嘸蝦米
 - git-all
