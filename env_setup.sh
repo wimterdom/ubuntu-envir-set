@@ -26,6 +26,12 @@ sudo apt install -y curl
 echo "Install finished!"
 echo ""
 
+echo "Install ruby..."
+sudo apt-get -y install ruby
+sudo apt-get -y install gcc ruby-dev
+echo "Install finished..."
+echo ""
+
 echo "Install Htop..."
 sudo apt-get -y install htop
 echo "Install finished!"
@@ -71,6 +77,7 @@ ehco "Install finished!"
 echo ""
 
 echo "Install pwn software..."
+sudo gem install seccomp-tools
 sudo apt-get -y install binutils nasm
 sudo apt-get -y install gcc-multilib g++-multilib
 sudo apt-get -y install libc6-dev-i386
