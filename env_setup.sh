@@ -78,6 +78,7 @@ echo ""
 
 echo "Install pwn software..."
 sudo gem install seccomp-tools
+sudo apt-get -y install libseccomp-dev
 sudo apt-get -y install binutils nasm
 sudo apt-get -y install gcc-multilib g++-multilib
 sudo apt-get -y install libc6-dev-i386
