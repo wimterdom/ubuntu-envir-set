@@ -5,6 +5,7 @@ The enviroment is for binary exploitation researcher.
 - git-all
 - net-tools
 - curl
+- ruby
 - python3、python3-dev、python3-pip
 - python
 - powerline
@@ -22,6 +23,7 @@ The enviroment is for binary exploitation researcher.
   - gdb
   - pwntools
   - capstone
+  - pwngdb
 - Docker
 
 ## Install
