@@ -102,6 +102,13 @@ sudo pip3 install one_gadget
 echo "Install finished!"
 echo ""
 
+echo "Install pwngdb"
+cd ~/
+git clone https://github.com/scwuaptx/Pwngdb.git 
+cp ~/Pwngdb/.gdbinit ~/
+echo "Install finished!"
+echo ""
+
 echo "Install Docker..."
 sudo apt install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
