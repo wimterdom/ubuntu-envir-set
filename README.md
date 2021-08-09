@@ -20,7 +20,7 @@ The enviroment is for binary exploitation researcher.
   - libc6-dbg、libc6-dbg:i386
   - nmap
   - python-pip、libssl-dev
-  - gdb
+  - gdb peda
   - pwntools
   - capstone
   - pwngdb
