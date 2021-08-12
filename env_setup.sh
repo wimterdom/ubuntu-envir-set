@@ -37,6 +37,11 @@ sudo apt-get -y install htop
 echo "Install finished!"
 echo ""
 
+echo "Install gedit..."
+sudo apt-get -y install gedit
+echo "Install finished!"
+echo ""
+
 echo "Install python3、python3-dev&pip..."
 sudo apt-get -y install python3
 sudo apt-get -y install python3-dev
