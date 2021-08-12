@@ -45,7 +45,7 @@ echo ""
 echo "Install python3、python3-dev&pip..."
 sudo apt-get -y install python3
 sudo apt-get -y install python3-dev
-sudo apt-get -y install pythone-pip
+sudo apt-get -y install python3-pip
 echo "Install finished!"
 echo ""
 
