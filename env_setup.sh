@@ -42,6 +42,14 @@ sudo apt-get -y install gedit
 echo "Install finished!"
 echo ""
 
+echo "Install sublime-text"
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt -y install sublime-text
+echo "Install finished!"
+
+
 echo "Install python3、python3-dev&pip..."
 sudo apt-get -y install python3
 sudo apt-get -y install python3-dev
