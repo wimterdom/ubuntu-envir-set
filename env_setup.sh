@@ -37,6 +37,16 @@ sudo apt-get -y install htop
 echo "Install finished!"
 echo ""
 
+echo "Install NCDU"
+sudo apt-get -y instll ncdu
+echo "Install finished!"
+echo ""
+
+echo "Install tree"
+sudo apt-get -y install tree
+echo "Install finished!"
+echo ""
+
 echo "Install gedit..."
 sudo apt-get -y install gedit
 echo "Install finished!"
