@@ -91,6 +91,11 @@ sudo apt-get -y install python3-virtualenv
 echo "Install finished!"
 echo ""
 
+echo "Install terminator..."
+sudo apt-get -y install terminator
+echo "Install finished!"
+echo ""
+
 echo "Install Reverse software"
 echo "Install Radare2..."
 git clone https://github.com/radareorg/radare2
