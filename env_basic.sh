@@ -90,3 +90,8 @@ echo "Install virtualenv..."
 sudo apt-get -y install python3-virtualenv
 echo "Install finished!"
 echo ""
+
+echo "Install terminator..."
+sudo apt-get -y install terminator
+echo "Install finished!"
+echo ""
