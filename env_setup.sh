@@ -96,6 +96,13 @@ sudo apt-get -y install terminator
 echo "Install finished!"
 echo ""
 
+echo "Install bat"
+sudo apt-get -y install bat
+echo "Install finished!"
+echo ""
+
+echo "Install 
+
 echo "Install Reverse software"
 echo "Install Radare2..."
 git clone https://github.com/radareorg/radare2
