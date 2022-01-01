@@ -47,6 +47,11 @@ sudo apt-get -y install tree
 echo "Install finished!"
 echo ""
 
+echo "Install nautilus"
+sudo apt-get -y install nautilus
+echo "Install finished!"
+echo ""
+
 echo "Install gedit..."
 sudo apt-get -y install gedit
 echo "Install finished!"
