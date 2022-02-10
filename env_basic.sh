@@ -100,3 +100,13 @@ echo "Install terminator..."
 sudo apt-get -y install terminator
 echo "Install finished!"
 echo ""
+
+echo "Install snap..."
+sudo apt-get -y install snap
+echo "Install finished!"
+echo ""
+
+echo "Install gotop..."
+snap install gotop-cjbassi
+echo "Install finished!"
+echo ""
