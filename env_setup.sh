@@ -38,7 +38,7 @@ echo "Install finished!"
 echo ""
 
 echo "Install NCDU"
-sudo apt-get -y instll ncdu
+sudo apt-get -y install ncdu
 echo "Install finished!"
 echo ""
 
