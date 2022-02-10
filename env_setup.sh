@@ -106,6 +106,16 @@ sudo apt-get -y install bat
 echo "Install finished!"
 echo ""
 
+echo "Install snap..."
+sudo apt-get -y install snap
+echo "Install finished!"
+echo ""
+
+echo "Install gotop..."
+snap install gotop-cjbassi
+echo "Install finished!"
+echo ""
+
 echo "Install Reverse software"
 echo "Install Radare2..."
 git clone https://github.com/radareorg/radare2
