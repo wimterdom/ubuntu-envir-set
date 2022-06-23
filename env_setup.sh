@@ -5,11 +5,11 @@ cd $HOME
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-echo "Install 嘸蝦米..."
+#echo "Install 嘸蝦米..."
 #sudo apt-get install fcitx fcitx-m17n -y
-sudo apt-get install fcitx-table-boshiamy -y
-echo "Install finished!"
-echo ""
+#sudo apt-get install fcitx-table-boshiamy -y
+#echo "Install finished!"
+#echo ""
 
 echo "Install net-tools..."
 sudo apt-get -y install net-tools
