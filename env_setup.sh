@@ -21,6 +21,12 @@ sudo apt install -y curl
 echo "[*]Install finished!"
 echo ""
 
+echo "[*]Install nodejs & npm..."
+sudo apt install -y nodejs
+sudo apt install -y npm
+echo "[*]Install finished!"
+echo ""
+
 echo "[*]Install ruby..."
 sudo apt-get -y install ruby
 sudo apt-get -y install gcc ruby-dev
