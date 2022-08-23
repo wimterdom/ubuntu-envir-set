@@ -13,7 +13,7 @@ cd boshiamy_siang
 sudo make 
 sudo make install
 sudo apt-get -y install ibus-chewing 
-sudo reboot
+#sudo reboot
 cd $HOME
 echo -e "33[1;4;32m[*] Install finished!33[0m"
 #echo ""
