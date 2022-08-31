@@ -1,4 +1,5 @@
 # ubuntu-gdm-set-background script (for changing Ubuntu 20.04, 21.04 & 21.10 GDM Background) HELP
+> shard from PRATAP-KUMAR
 
 Download the script with below command
 
