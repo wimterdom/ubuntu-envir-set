@@ -171,6 +171,7 @@ git clone https://github.com/scwuaptx/peda.git ~/peda
 cp ~/peda/.inpurc ~/
 git clone https://github.com/scwuaptx/Pwngdb.git
 cp ~/Pwngdb/.gdbinit ~/
+bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
 git clone https://github.com/JonathanSalwan/ROPgadget
 cd ROPgadget
 python setup.py install
