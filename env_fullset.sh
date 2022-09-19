@@ -78,6 +78,15 @@ sudo apt -y install sublime-text
 echo "\033[32m [*] Sublime-text install finished! \033[0m"
 echo ""
 
+echo "\033[31m [*] Install Asan... \033[0m"
+sudo apt-get install -y libasan4
+echo "\033[32m [*] Asan finished! \033[0m"
+echo ""
+
+echo "\033[31m [*] Install Sanitizer... \033[0m"
+sudo apt-get install -y sanitizer
+echo "\033[32m [*] Sanitizer finished! \033[0m"
+echo ""
 
 echo "\033[31m [*] Install Python3... \033[0m"
 sudo apt-get -y install python3
