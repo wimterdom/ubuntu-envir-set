@@ -125,6 +125,7 @@ echo ""
 
 echo "\033[31m [*] Install Libxml2... \033[0m"
 sudo apt install -y libxml2
+sudo apt install -y libxml2-dev
 echo "\033[32m [*] Libxml2 install finished! \033[0m"
 echo ""
 
