@@ -123,6 +123,11 @@ sudo apt-get -y install tmux
 echo "\033[32m [*] Tmux install finished! \033[0m"
 echo ""
 
+echo "\033[31m [*] Install Libxml2... \033[0m"
+sudo apt install -y libxml2
+echo "\033[32m [*] Libxml2 install finished! \033[0m"
+echo ""
+
 echo "\033[31m [*] Install Virtualenv... \033[0m"
 sudo apt-get -y install python3-virtualenv
 echo "\033[32m [*] Virtualenv install finished! \033[0m"
@@ -169,12 +174,16 @@ echo ""
 echo "\033[31m [*] Install Pwn software... \033[0m"
 sudo gem install seccomp-tools
 sudo apt-get -y install libseccomp-dev
-sudo apt-get -y install binutils nasm
-sudo apt-get -y install gcc-multilib g++-multilib
+sudo apt-get -y install binutils
+sudo apt-get -y install nasm
+sudo apt-get -y install gcc-multilib
+sudo apt-get -y install g++-multilib
 sudo apt-get -y install libc6-dev-i386
-sudo apt-get -y install libc6-dbg libc6-dbg:i386
+sudo apt-get -y install libc6-dbg
+sudo apt-get -y install libc6-dbg:i386
 sudo apt-get -y install nmap
-sudo apt-get -y install python-pip libssl-dev
+#sudo apt-get -y install python-pip
+sudo apt-get -y install libssl-dev
 sudo apt-get -y install gdb
 sudo pip3 install pwntools
 sudo pip install --upgrade pip
