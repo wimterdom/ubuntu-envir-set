@@ -69,6 +69,7 @@ echo "\033[31m [*] Install Gnome-tweak... \033[0m"
 sudo apt install gnome-tweak-tool
 echo "\033[32m [*] Gnome-tweak install finished! \033[0m"
 echo ""
+
 echo "\033[31m [*] Install Gedit... \033[0m"
 sudo apt-get -y install gedit
 echo "\033[32m [*] Gedit install finished! \033[0m"
