@@ -33,6 +33,13 @@ sudo apt install -y gnome-shell-extension-prefs
 echo "\033[32m [*] Extensions install finished! \033[0m"
 echo ""
 
+echo "\033[31m [*] Install Tweak-gnome-tool... \033[0m"
+sudo add-apt-repository universe
+sudo apt install -y gnome-tweaks
+#sudo apt install -y gnome-tweak-tool
+echo "\033[32m [*] Tweak-gnome-tool install finished! \033[0m"
+echo ""
+
 echo "\033[31m [*] Install Nodejs & Npm... \033[0m"
 sudo apt install -y nodejs
 sudo apt install -y npm
