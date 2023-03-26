@@ -177,6 +177,21 @@ snap install gotop-cjbassi
 echo "\033[32m [*] Gotop install finished! \033[0m"
 echo ""
 
+echo "\033[31m [*] Install Super-productivity... \033[0m"
+sudo snap install superproductivity
+echo "\033[32m [*] Super-productivity install finished! \033[0m"
+echo ""
+
+echo "\033[31m [*] Install Wine... \033[0m"
+cat <<"EOF" | bash                              
+sudo dpkg --add-architecture i386 && \
+sudo apt update && \
+sudo apt install wine64 wine32 && \
+wine --version
+EOF
+echo "\033[32m [*] Wine install finished! \033[0m"
+echo ""
+
 echo "\033[31m [*] Install Radare2... \033[0m"
 git clone https://github.com/radareorg/radare2
 cd radare2/sys/
