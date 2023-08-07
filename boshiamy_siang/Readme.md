@@ -8,6 +8,7 @@
 
 iBus 設定
 ---------
+
 建議繁體中文使用者把本表格的 Chinese mode 調整為 all Chinese characters，因為繁體優先模式會有把「表」排在「囊」後面的 bug。
 
 [ibus]: https://github.com/ibus/ibus
