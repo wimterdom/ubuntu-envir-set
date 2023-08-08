@@ -7,8 +7,9 @@ Download the script with below command
 ````
 wget -qO - https://github.com/PRATAP-KUMAR/ubuntu-gdm-set-background/archive/main.tar.gz | tar zx --strip-components=1 ubuntu-gdm-set-background-main/ubuntu-gdm-set-background
 ````
+
 ## preinstalli
-```sh
+```bash
 sudo apt-get install libglib2.0-dev-bin
 ```
 
