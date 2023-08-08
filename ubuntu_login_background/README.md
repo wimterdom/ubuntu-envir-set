@@ -7,6 +7,10 @@ Download the script with below command
 ````
 wget -qO - https://github.com/PRATAP-KUMAR/ubuntu-gdm-set-background/archive/main.tar.gz | tar zx --strip-components=1 ubuntu-gdm-set-background-main/ubuntu-gdm-set-background
 ````
+## preinstalli
+```sh
+sudo apt-get install libglib2.0-dev-bin
+```
 
 there are four options
 1. background with image
