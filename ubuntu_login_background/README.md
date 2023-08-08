@@ -9,8 +9,8 @@ wget -qO - https://github.com/PRATAP-KUMAR/ubuntu-gdm-set-background/archive/mai
 ````
 
 ## preinstalli
-```bash
-sudo apt-get install libglib2.0-dev-bin
+```sh
+sudo apt-get install  -y libglib2.0-dev-bin
 ```
 
 there are four options
