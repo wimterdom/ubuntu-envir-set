@@ -177,11 +177,6 @@ snap install gotop-cjbassi
 echo "\033[32m [*] Gotop install finished! \033[0m"
 echo ""
 
-echo "\033[31m [*] Install Super-productivity... \033[0m"
-sudo snap install superproductivity
-echo "\033[32m [*] Super-productivity install finished! \033[0m"
-echo ""
-
 echo "\033[31m [*] Install Wine... \033[0m"
 cat <<"EOF" | bash                              
 sudo dpkg --add-architecture i386 && \
@@ -221,6 +216,7 @@ sudo pip install --upgrade pip
 sudo pip install --upgrade capstone
 sudo pip install --upgrade pwntools
 sudo pip install ropgadget
+bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
 git clone https://github.com/scwuaptx/peda.git ~/peda 
 cp ~/peda/.inpurc ~/
 git clone https://github.com/scwuaptx/Pwngdb.git
